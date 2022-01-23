@@ -15,17 +15,6 @@ const Icons = styled.div`
   left: 2rem;
 
   z-index: 3;
-
-  & > *:not(:last-child) {
-    margin: 0.5rem 0;
-
-    ${mediaQueries(20)`
-      margin: 0.3rem 0;
-
-
-  `};
-  }
-
   ${mediaQueries(40)`
   left: 1rem;
 
