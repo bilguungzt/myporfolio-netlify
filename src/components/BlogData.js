@@ -11,7 +11,7 @@ export const Blogs = [
         id:2,
         name:"Svelte with Vite and TailwindCSS",
         tags:["react","tailwindCSS"],
-        date:"5 July, 2021",
+        date:"29 October, 2021",
         imgSrc:"https://dev.to/eternaldev/svelte-with-vite-and-tailwindcss-e66",
         link:"https://dev.to/eternaldev/svelte-with-vite-and-tailwindcss-e66"
     },
