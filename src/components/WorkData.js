@@ -5,7 +5,7 @@ export const Work = [
         description:"It is a modern Blockchain application that allow users to access their Ethereum wallet via Meta Mask and interact with decentralized application in their browser without running an Ethereum node.",
         tags:["React","Smart Contract","Solidity", "ERC-20","Blockchain"],
         
-        demo:"",
+        demo:"https://krypto1.netlify.app",
         github:"https://github.com/bilguungzt"
     },
     {
