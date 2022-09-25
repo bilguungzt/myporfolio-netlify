@@ -4,8 +4,8 @@ import { lazy, Suspense, useState } from "react";
 import { motion } from "framer-motion";
 
 //Components
-import { YinYang } from "./AllSvgs";
-import rocket from "../assets/svg/rocket.svg";
+// import { YinYang } from "./AllSvgs";
+// import rocket from "../assets/svg/rocket.svg";
 import Intro from "./Intro";
 import Loading from "../subComponents/Loading";
 import { mediaQueries } from "./Themes";
