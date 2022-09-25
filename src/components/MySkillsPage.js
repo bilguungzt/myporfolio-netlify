@@ -173,8 +173,6 @@ const MySkillsPage = () => {
             <Description>
               <strong>I like to Design</strong> <br />
               <p>Web Design, Mobile Apps, System design</p>
-                
-            
             </Description>
             <Description>
               <strong>Tools</strong> <br />
@@ -183,21 +181,18 @@ const MySkillsPage = () => {
           </Main>
           <Main>
             <Title>
-              <Develope width={40} height={40} /> Frontend Developer
+              <Develope width={40} height={40} /> Software Developer
             </Title>
-            <Description>
+            {/* <Description>
               Highly skilled in understanding client requirements, writing and testing code, helping to develop software solutions, and using the latest development tools.
+            </Description> */}
+            <Description>
+              <strong>Programming Languages</strong> <br />
+              <p>Python, Java, JavaScript, C, TypeScript, SQL</p>
             </Description>
             <Description>
-              <strong>Skills</strong> <br />
-              <p>
-                Html, Css, Js, React, Next, Node, Bootstrap, Tailwind, Firebase
-                etc.
-              </p>
-            </Description>
-            <Description>
-              <strong>Tools</strong> <br />
-              <p>VScode, Github, Codepen etc.</p>
+              <strong>Frameworks/Others</strong> <br />
+              <p>Next.js, React, NodeJS, MongoDB, Git, HTML/CSS, Bootstrap, RESTful APIs, Solidity, Smart Contracts, Blockchain, ERC-20, Docker, Elastic stack, Linux basic, Java quarkus, MySQL, NoSQL</p>
             </Description>
           </Main>
           <BigTitle text="Skills" top="80%" right="30%" />

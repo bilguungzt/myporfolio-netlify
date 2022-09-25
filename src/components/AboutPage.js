@@ -110,7 +110,7 @@ const AboutPage = () => {
           <Main
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 1, delay: 1 } }}>
-            I'm Bilguun Bayasgalan a Front End developer from Los Angeles, California. 
+            I'm Bilguun a Software developer from San Francisco, California. 
             <br />
             <br />
             I have Dynamic tech professional with experience in website and software development, project management, coding, and various software and programming languages.  

@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 
 //Components
 import { YinYang } from "./AllSvgs";
+import rocket from "../assets/svg/rocket.svg";
 import Intro from "./Intro";
 import Loading from "../subComponents/Loading";
 import { mediaQueries } from "./Themes";
@@ -56,7 +57,7 @@ from {
     transform: rotate(0) ;
   }
   to {
-    transform: rotate(360deg) ;
+    transform: rotate(30deg) ;
   }
 `;
 const Center = styled.button`
@@ -73,7 +74,7 @@ const Center = styled.button`
   align-items: center;
   transition: all 1s ease;
   & > *:first-child {
-    animation: ${rotate} infinite 1.5s linear;
+    animation: ${rotate};
   }
   & > *:last-child {
     display: ${(props) => (props.click ? "none" : "inline-block")};
@@ -187,7 +188,7 @@ const Main = () => {
     y: "-100%",
   };
   const moveX = {
-    x: `${path === "work" ? "100%" : "-100%"}`,
+    x: `${path === "work" ? "10%" : "-100%"}`,
   };
   const mq = window.matchMedia("(max-width: 50em)").matches;
 
@@ -211,29 +212,19 @@ const Main = () => {
           )}
           <Center click={click}>
             {mq ? (
-              <YinYang
-                onClick={() => handleClick()}
-                width={click ? 80 : 150}
-                height={click ? 80 : 150}
-                fill="currentColor"
-              />
+              <h2 onClick={() => handleClick()}> Welcome !</h2>
             ) : (
-              <YinYang
-                onClick={() => handleClick()}
-                width={click ? 120 : 200}
-                height={click ? 120 : 200}
-                fill="currentColor"
-              />
+              <h2 onClick={() => handleClick()}> Welcome !</h2>
             )}
 
-            <span>click here</span>
+            {/* <span>click here</span> */}
           </Center>
 
           {mq ? (
             <Contact
               click={+click}
               target="_blank"
-              to={{ pathname: "bayasgalan_bilguun@student.smc.edu" }}
+              to={{ pathname: "bbayasgalan2@sfsu.edu" }}
             >
               <motion.h3
                 initial={{
@@ -254,7 +245,7 @@ const Main = () => {
             <Contact
               click={+false}
               target="_blank"
-              to={{ pathname: "mailto:bayasgalan_bilguun@student.smc.edu" }}
+              to={{ pathname: "mailto:bbayasgalan2@sfsu.edu" }}
             >
               <motion.h3
                 initial={{
