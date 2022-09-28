@@ -217,7 +217,7 @@ const Main = () => {
               <h2 onClick={() => handleClick()}> Welcome !</h2>
             )}
 
-            {/* <span>click here</span> */}
+            <span>click here</span>
           </Center>
 
           {mq ? (
