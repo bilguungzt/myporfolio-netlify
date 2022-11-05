@@ -2,7 +2,7 @@ export const Work = [
     {
         id:1,
         name:"Umeeting",
-        description:"Workplace software with room reservations across company domains and direct integration with Microsoft Teams and deployed on Azure cloud.",
+        description:"Developed corporate wifi software using React to manage administrator's dashboard.",
         tags:["JavaScript","React", "Azure Cloud","PostgreSQL","Microsoft Graph API", "Restful API"],
         
         demo:"",
@@ -12,7 +12,7 @@ export const Work = [
     {
         id:2,
         name:"Corporate WiFi system",
-        description:"Launched workplace software with room reservations across company domains and direct integration with Microsoft Teams and deployed on Azure cloud. ",
+        description:"Launched workplace software reserves meeting rooms as well as scheduling hot desks across company domains. It synchronizes with Microsoft Teams and deployed on the Azure cloud. ",
         tags:["JavaScript","React", "Sass","JWT auth", "OTP", "Rest API", "ACL"],
         
         demo:"",
@@ -22,7 +22,7 @@ export const Work = [
     {
         id:3,
         name:"Unipedia",
-        description:"Demonstrated the company's encyclopedia website using ElasticSearch, PostgreSQL, and Docker. ",
+        description:"Accomplished company's encyclopedia website operating ElasticSearch, PostgreSQL, and Docker. ",
         tags:["HTML/CSS","Docker", "PostgreSQL", "ElasticSearch", "Kibana"],
         
         demo:"",
