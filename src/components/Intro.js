@@ -202,12 +202,18 @@ const Intro = () => {
       transition={{ type: "spring", duration: 2, delay: 1 }}
     >
       <SubBox>
-        <Text>
+        {/* <Text>
           <h3>Hi,</h3>
           
           <h3>I'm Bilguun Bayasgalan.</h3>
 
-          <h2>I love to building everything from small business sites to rich interactive web applications.</h2>
+          <h2>I enjoy building software from small business sites to rich interactive web applications.</h2>
+        </Text> */}
+        <Text>
+        Because you could be my Seoul mate.
+
+        Thanks bae
+        XOXO
         </Text>
       </SubBox>
       <SubBox>

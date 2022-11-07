@@ -110,13 +110,13 @@ const AboutPage = () => {
           <Main
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 1, delay: 1 } }}>
-            I'm Bilguun a Software developer from San Francisco, California. 
+            I'm Bilguun Bayasgalan a Software developer from San Francisco, California. 
             <br />
             <br />
-            I have Dynamic tech professional with experience in website and software development, project management, coding, and various software and programming languages.  
+            I have a dynamic tech professional with experience in website, software development, project management, coding, and various software development.  
             <br />
             <br />
-            Pursuing a Software Engineer Intern role within the technology industry. 
+            I'm pursuing a Software Engineer Intern position within the technology industry. 
             <br />
             {' '}
           </Main>

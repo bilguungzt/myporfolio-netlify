@@ -167,8 +167,7 @@ const MySkillsPage = () => {
               <Design width={40} height={40} /> Designer
             </Title>
             <Description>
-              I love to create design which speaks, Keep it clean, minimal and
-              simple.
+              I love to create design that are minimalist, simplistic and clean.
             </Description>
             <Description>
               <strong>I like to Design</strong> <br />

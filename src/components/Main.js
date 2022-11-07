@@ -212,9 +212,9 @@ const Main = () => {
           )}
           <Center click={click}>
             {mq ? (
-              <h2 onClick={() => handleClick()}> Welcome !</h2>
+              <h2 onClick={() => handleClick()}> Are you from Korea? !</h2>
             ) : (
-              <h2 onClick={() => handleClick()}> Welcome !</h2>
+              <h2 onClick={() => handleClick()}> Are you from Korea? !</h2>
             )}
 
             <span>click here</span>
