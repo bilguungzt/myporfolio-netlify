@@ -110,7 +110,7 @@ const AboutPage = () => {
           <Main
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 1, delay: 1 } }}>
-            I'm Bilguun Bayasgalan a Software developer from San Francisco, California. 
+            I'm William Bay a Software developer from San Francisco, California. 
             <br />
             <br />
             I have a dynamic tech professional with experience in website, software development, project management, coding, and various software development.  
