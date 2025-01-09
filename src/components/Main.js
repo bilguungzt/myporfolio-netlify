@@ -224,7 +224,7 @@ const Main = () => {
             <Contact
               click={+click}
               target="_blank"
-              to={{ pathname: "william8bay@gmail.com" }}
+              to={{ pathname: "billbayasgalan@gmail.com" }}
             >
               <motion.h3
                 initial={{
@@ -245,7 +245,7 @@ const Main = () => {
             <Contact
               click={+false}
               target="_blank"
-              to={{ pathname: "mailto:william8bay@gmail.com" }}
+              to={{ pathname: "mailto:billbayasgalan@gmail.com" }}
             >
               <motion.h3
                 initial={{
